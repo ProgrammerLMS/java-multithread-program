@@ -1,4 +1,4 @@
-package ExtendsThread;
+package useMultithread.ExtendsThread;
 
 public class RunMyThread {
     public static void main(String[] args) {

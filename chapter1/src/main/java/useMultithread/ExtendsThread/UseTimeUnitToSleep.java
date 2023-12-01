@@ -1,4 +1,4 @@
-package ExtendsThread;
+package useMultithread.ExtendsThread;
 
 import java.util.concurrent.TimeUnit;
 

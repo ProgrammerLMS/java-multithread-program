@@ -1,4 +1,4 @@
-package ExtendsThread;
+package useMultithread.ExtendsThread;
 
 public class MyThread extends Thread{
 
