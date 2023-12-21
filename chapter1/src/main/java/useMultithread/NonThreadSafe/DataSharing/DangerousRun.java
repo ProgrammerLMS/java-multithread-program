@@ -5,7 +5,7 @@ public class DangerousRun {
         /* 在Thread的构造方法中，第一个传入的是Runnable对象 */
         /* 如果我们在Runnable参数位置中传入一个Thread对象
            实际上就是让其他线程都调用这个Thread的run()方法 */
-        MyDangerousThread myThread = new MyDangerousThread();
+        useMultithread.NonThreadSafe.DataSharing.MyDangerousThread myThread = new useMultithread.NonThreadSafe.DataSharing.MyDangerousThread();
         Thread a = new Thread(myThread, "a");
         Thread b = new Thread(myThread, "b");
         Thread c = new Thread(myThread, "c");
